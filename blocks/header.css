@@ -1,0 +1,42 @@
+.header {
+  padding-top: 2.66%;
+  padding-left: 11.56%;
+  padding-right: 11.56%;
+  padding-bottom: 7.18%;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  max-width: 255px;
+}
+
+.header__tilte {
+  margin: 0;
+  padding-top: 4.6%;
+  font-size: 6rem;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__description {
+  margin: 0;
+  padding-top: 1.4%;
+  padding-bottom: 4.4%;
+  font-size: 1.875rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__image-principal {
+  max-width: 984px;
+  width: 100%;
+}
