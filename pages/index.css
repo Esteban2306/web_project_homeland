@@ -3,3 +3,91 @@
 @import url(../blocks/page.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .intro {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header__tilte {
+    font-size: 2.5rem;
+    padding-top: 15%;
+  }
+
+  .header__description {
+    font-size: 1rem;
+    padding-top: 4.4%;
+    padding-bottom: 10.4%;
+  }
+
+  .intro {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .intro__title {
+    font-size: 2rem;
+    padding-top: 16%;
+    padding-bottom: 12%;
+  }
+
+  .intro__text-one {
+    font-size: 1.5rem;
+    padding-bottom: 8.8%;
+  }
+  .intro__text-one-name {
+    font-size: 1.5rem;
+    padding-bottom: 12%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header__tilte {
+    font-size: 2.5rem;
+    padding-top: 15%;
+  }
+
+  .header__description {
+    font-size: 1rem;
+    padding-top: 4.4%;
+    padding-bottom: 10.4%;
+  }
+
+  .intro {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .intro__title {
+    font-size: 2rem;
+    padding-top: 16%;
+    padding-bottom: 12%;
+  }
+
+  .intro__text-one {
+    font-size: 1.5rem;
+    padding-bottom: 8.8%;
+  }
+  .intro__text-one-name {
+    font-size: 1.5rem;
+    padding-bottom: 12%;
+  }
+}
