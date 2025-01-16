@@ -10,19 +10,19 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
   .header {
     padding-left: 0;
     padding-right: 0;
   }
 
   .header__tilte {
-    font-size: 2.5rem;
-    padding-top: 15%;
+    font-size: 4.5rem;
+    padding-top: 10%;
   }
 
   .header__description {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 4.4%;
     padding-bottom: 10.4%;
   }
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 320px) {
   .header {
     padding-left: 0;
     padding-right: 0;
