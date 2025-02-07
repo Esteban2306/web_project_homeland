@@ -12,10 +12,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 125px repeat(3, 1fr) 50px;
   gap: 48px 40px;
-  padding-bottom: 11%;
-}
-.places__container:not(:last-child) {
-  padding-bottom: 11%;
+  padding-bottom: 9%;
 }
 
 .places__tittle {
@@ -44,7 +41,8 @@
 
 .places__image-item:hover {
   transform: scale(1.05);
-  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  filter: brightness(0.5);
 }
 
 .places__button {
@@ -65,7 +63,7 @@
 
 .places__button:hover {
   transform: scale(1.05);
-  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 20px 20px 20px 20px rgba(0, 0, 0, 0.25);
 }
 
 .places__link {

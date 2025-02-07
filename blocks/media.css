@@ -1,54 +1,4 @@
-@media screen and (max-width: 768px) {
-  .header {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .intro {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .header {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .header__tilte {
-    font-size: 4.5rem;
-    padding-top: 10%;
-  }
-
-  .header__description {
-    font-size: 1.5rem;
-    padding-top: 4.4%;
-    padding-bottom: 10.4%;
-  }
-
-  .intro {
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-
-  .intro__title {
-    font-size: 2rem;
-    padding-top: 16%;
-    padding-bottom: 12%;
-  }
-
-  .intro__text-one {
-    font-size: 1.5rem;
-    padding-bottom: 8.8%;
-  }
-  .intro__text-one-name {
-    font-size: 1.5rem;
-    padding-bottom: 12%;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 580px) {
   .header {
     padding-left: 0;
     padding-right: 0;
@@ -83,5 +33,76 @@
   .intro__text-one-name {
     font-size: 1.5rem;
     padding-bottom: 12%;
+  }
+  .photo-grid__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .places__container {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 0fr) 50px;
+    grid-gap: 30px 0;
+    padding: 0 5% 30%;
+  }
+
+  .places__tittle {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .places__link {
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .places__image {
+    grid-column: 1;
+    grid-row: 3;
+    margin: auto;
+  }
+  .places__text-container {
+    max-width: 290px;
+    grid-column: 1;
+    grid-row: 4;
+    margin: auto;
+  }
+
+  .places__button {
+    max-width: 320px;
+    font-size: 14px;
+    grid-column: 1;
+    grid-row: 6;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 581px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .intro {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .photo-grid__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .places__container {
+    padding: 0 3% 2%;
+  }
+
+  .places__tittle {
+    font-size: 42px;
+  }
+
+  .places__button {
+    grid-column: 1/4;
+    grid-row: 4;
+    max-height: 20px;
   }
 }
